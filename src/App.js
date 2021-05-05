@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+fetch('https://auntm.ai/champions/',{
+  method: 'GET'
+}).then(res => {
+  return res.json()
+  })
+  
 function App() {
   return (
     <div className="App">
@@ -16,6 +22,13 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+        </a>
+        <a
+          className="List-link"
+          href="https://auntm.ai/champions/"
+          target="Champions"
+        >
+          Champions List
         </a>
       </header>
     </div>
