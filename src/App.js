@@ -24,9 +24,7 @@ function App() {
           Learn React
         </a>
         <a
-          className="List-link"
-          href="https://auntm.ai/champions/"
-          target="Champions"
+          
         >
           Champions List
         </a>
