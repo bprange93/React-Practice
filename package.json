@@ -1,4 +1,6 @@
+
 {
+  "comment": "Don't npm run eject. Do this when understand better.",
   "name": "react-practice",
   "version": "0.1.0",
   "private": true,
