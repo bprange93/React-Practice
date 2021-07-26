@@ -2,10 +2,6 @@
 //using the let variable keyword makes the variable only accessible inside of the block it is being used in. 
 //Majority of the time get used to using the let keyword
 //const is the same as let being only block scoped.
-function sayHello(){    
-    for (let i =0; i < 5; i++) {
-        console.log(i);
-    }
-}
-
-sayHello();
+//onced used as a const it can not be changed later. 
+const x = 1;
+x = 2;
