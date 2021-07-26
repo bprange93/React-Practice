@@ -23,11 +23,8 @@ function App() {
         >
           Learn React
         </a>
-        <a
-          
-        >
-          Champions List
-        </a>
+
+        <a>Champion List</a>
       </header>
     </div>
   );
