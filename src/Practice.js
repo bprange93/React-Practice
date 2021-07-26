@@ -1,7 +1,14 @@
-//using the var variable makes the variable only accessible inside of the function. 
-//using the let variable keyword makes the variable only accessible inside of the block it is being used in. 
-//Majority of the time get used to using the let keyword
-//const is the same as let being only block scoped.
-//onced used as a const it can not be changed later. 
-const x = 1;
-x = 2;
+//talked about Objects in JavaScript. 
+const person = {
+    name: 'Nrandon',
+    //if have function inside of object makes it a method
+    walk: function() {},
+    //both of these ways work to define a method in an object. 
+    //the talk method is the cleaner way to accomplish this. 
+    talk() {}
+};
+
+person.talk();
+person.name = '';
+const targetMember = 'name';
+person[targetMember.valueOf] = 'John'
